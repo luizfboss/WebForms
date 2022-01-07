@@ -20,8 +20,8 @@ fieldset{
 }
 
 body{
-    background-image: -moz-linear-gradient();
-    background-color: royalblue;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #f8b8ae 0%, #FF6A88 55%, #FF99AC 100%);
     font-family: sans-serif;
     font-size: 1em;
     color: white;
@@ -68,20 +68,19 @@ fieldset .group .field{
     background: white;
     border: 0;
     margin-bottom: 1em;
-    color: royalblue;
+    color: #FF6A88;
     padding: 0.2em 0.6em;
     box-shadow: 2px, 2px, 2px black;
     text-shadow: 1px, 1px, 1px black;;
     position: absolute;
-    top: 90%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50% -50%);
 }
 
 .button:hover{
-    background: #ccbbff;
-    box-shadow: inset 2px 2px 2px black;
+    background: #ff4c70;
+    color: white;
 }
 
 #check{
