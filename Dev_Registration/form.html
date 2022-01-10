@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="form.ico" type="image/x-icon">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <div class="field">
+        <h1 id="title">Dev Registration</h1>
+        <p id="subtitle">Fill in with your information</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="group">
+            
+            <div class="field">
+                <label for="name"><strong>Name</strong></label>
+                <input type="text" name="Name" id="Name" required>
+            </div>
+
+            <div class="field">
+                <label for="surname"><strong>Surname</strong></label>
+                <input type="text" name="Surname" id="surname" required>
+            </div>
+
+        </fieldset>    
+            
+        <div class="field">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="Email" id="email" required>
+            </div>
+
+            <div class="field">
+                <label><strong>What is your development field?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend">Frontend
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="Backend">Backend
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Fullstack
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">BI
+                </label>
+            </div>
+
+            <div class="field">
+                <label for="senior"><strong>Your Experience Level</strong></label>
+                <select id="Senior">
+                    <option selected disabled value="">Select</option>
+                    <option>Junior</option>
+                    <option>Mid</option>
+                    <option>Senior</option>
+                </select>
+            </div>
+        
+            <fieldset class="group">
+                <div id="check">
+                    <label><strong>Select the languages you know</strong></label><br>
+                    <input type="checkbox" name="tencology1" id="tecnology1" value="HTML">
+                    <label for="tecnology1">HTML</label>
+                    <br>
+                    <input type="checkbox" name="tecnology2" id="tecnology2" value="CSS">
+                    <label for="tecnologia2">CSS</label>
+                    <br>
+                    <input type="checkbox" name="tecnology3" id="tecnology3" value="JavaScript">
+                    <label for="tecnologia3">JavaScript</label>
+                    <br>
+                    <input type="checkbox" name="tecnology7" id="tecnology7" value="Java">
+                    <label for="tecnology7">Java</label>
+                    <br>
+                    <input type="checkbox" name="tecnology4" id="tecnology4" value="PHP">
+                    <label for="tecnologia4">PHP</label>
+                    <br>
+                    <input type="checkbox" name="tecnology5" id="tecnology5" value="C#">
+                    <label for="tecnology5">C#</label>
+                    <br>
+                    <input type="checkbox" name="tecnology7" id="tecnology7" value="C++">
+                    <label for="tecnology7">C++</label>
+                    <br>
+                    <input type="checkbox" name="tecnology6" id="tecnology6" value="Python">
+                    <label for="tecnology6">Python</label>
+                    <br>
+                    <input type="checkbox" name="tecnology7" id="tecnology7" value="MySQL">
+                    <label for="tecnology7">MySQL</label>
+                    <br>
+                </div>
+            </fieldset>
+            
+            <div class="field">
+                <br>
+                <label><strong>Tell us about your experience: </strong></label>
+                <textarea rows="10" style="width: 26em" id="experience" name="experience"></textarea>
+            </div>
+
+            <button class="button" type="Submit">Submit</button>
+    </form>
+</body>
+</html>
