@@ -1,14 +1,55 @@
+@keyframes animation-box{
+  from {
+      background-color: black;
+      color: white;
+  }
+
+  to {
+      background-color: white;
+      color: black;
+  }
+}
+
+
+
 #div1{
   position: relative;
   width: 70%;
   margin: auto;
-  transform: translate(0%, 100%);
+  transform: translate(0%, 250px);
   text-align: center;
 }
 
 #name{
   background-color: black;
-  border: 1px solid white;
-  border-radius: 10px;
-  width: 60%;
+  border: 2px solid white;
+  color: white;
+  border-radius: 20px;
+  width: 55%;
+  height: 60px;
+  font-size: 30px;
+}
+
+#next{
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  border: 2px solid white;
+  font-size: 30px;
+  border-radius: 50px;
+  width: 30%;
+
+  transition: all 0.5s;
+}
+#next a{
+  color: white;
+  padding: 5px 20px;
+}
+#next:hover{
+  background-color: white;
+  color: black;
+}
+#next:hover a{
+  text-decoration: none;
+  color: black;
 }
