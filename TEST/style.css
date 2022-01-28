@@ -42,17 +42,25 @@ body{
   transition: all 0.5s;
 }
 .checkbox{
+  display: block;
   border-radius: 50px;
   border: 2px solid white;
 }
+
+/*
+#languages{
+  width: 100%;
+}
+*/
+
 
 
 .input{
   background-color: rgba(0, 0, 0, 0);
   border: 2px solid white;
   color: white;
-  border-radius: 20px;
-  width: 55%;
+  border-radius: 50px;
+  width: 80%;
   height: 60px;
   font-size: 30px;
 
@@ -79,7 +87,7 @@ body{
   font-size: 30px;
   border-radius: 50px;
   border: 2px solid white;
-  width: 20%;
+  width: 150px;
   margin-right: 100px;
 
 
