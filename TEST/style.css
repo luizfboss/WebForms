@@ -10,6 +10,7 @@
   }
 }
 
+
 body{
   background-image: url('bg.jpg');
   background-size: 150vh 150;
@@ -27,6 +28,24 @@ body{
 #dev-registration{
   margin-bottom: 200px;
 }
+
+#div-fields{
+  color: white;
+}
+#div-fields p{
+  font-size: 40px;
+}
+.tecname{
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 20px;
+
+  transition: all 0.5s;
+}
+.checkbox{
+  border-radius: 50px;
+  border: 2px solid white;
+}
+
 
 .input{
   background-color: rgba(0, 0, 0, 0);
@@ -60,7 +79,9 @@ body{
   font-size: 30px;
   border-radius: 50px;
   border: 2px solid white;
-  width: 30%;
+  width: 20%;
+  margin-right: 100px;
+
 
   transition: all 0.5s;
 }
