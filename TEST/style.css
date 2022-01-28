@@ -10,7 +10,12 @@
   }
 }
 
-
+body{
+  background-color: #000000;
+  background-image: linear-gradient(360deg, #000000 1%, #353535 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 #div1{
   position: relative;
@@ -30,7 +35,7 @@
   font-size: 30px;
 }
 
-#next{
+.next{
   display: flex;
   justify-content: flex-end;
   background-color: black;
@@ -41,15 +46,19 @@
 
   transition: all 0.5s;
 }
-#next a{
+.next a{
   color: white;
   padding: 5px 20px;
 }
-#next:hover{
+.next:hover{
   background-color: white;
   color: black;
 }
-#next:hover a{
+.next:hover a{
   text-decoration: none;
   color: black;
+}
+
+#div-email{
+  margin-top: 500px;
 }
