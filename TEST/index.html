@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <div id="div1" class="d-flex container justify-content-center">
+  <div id="container" class="d-flex container justify-content-center">
     <class="tecname" form action="#">
       <h1 id="dev-registration" class="display-1 text-light">Dev Registration</h1>
 
@@ -31,6 +31,7 @@
       </div>
       <!--Name-->
 
+      <!--Email-->
       <div id="div-email">
         <div class="row">
           <span class="text-white display-4">Your Email: </span>
@@ -38,17 +39,18 @@
         </div>
 
         <div class="d-flex flex-row-reverse mt-5">
-          <button id="next1" class="next" type="button"><a class="smoothscroll" href="#div-fields">Next</a></button>
+          <button id="next1" class="next" type="button"><a class="smoothscroll" href="#div-dev-field">Next</a></button>
         </div>
 
       </div>
-      <!--email-->
+      <!--End Email-->
 
+      <!--Dev Field-->
       <div id="div-dev-field">
         <div class="row">
           <span class="text-white display-4">Your Developent Field: </span>
-          <select class="mt-5" name="experience" id="experience">
-            <option class="text-center" value="#">-- Select --</option>
+          <select class="d-sm-block mt-5" name="experience" id="experience">
+            <option class="text-center" value="#"> -- Select -- </option>
             <option value="frontend">FrontEnd</option>
             <option value="backend">Backend</option>
             <option value="fullstack">Fullstack</option>
@@ -60,9 +62,9 @@
         </div>
 
       </div>
-      <!--Developent Field-->
+      <!--End Dev Field-->
 
-
+      <!--Fields-->
       <div id="div-fields">
         <div class="row">
           <span class="text-white display-4 d-block">What are your fields of development? </span>
@@ -120,6 +122,7 @@
                 <input class="checkbox" type="checkbox" name="tecnology7" id="tecnology7" value="MySQL">
                 <label class="tecname" for="tecnology7">MySQL</label>
               </div>
+
             </div>
           </div>
         </div>
@@ -129,10 +132,10 @@
         </div>
 
       </div>
-      <!--Fields-->
+      <!--End Fields-->
 
 
-      <div id="div-experience">
+      <div id="div-experience-level">
         <div class="row">
           <span id="experience-level" class="text-white display-4">What is Your Experience Level?</span>
           <select class="mt-5" name="experience" id="experience">
@@ -150,8 +153,15 @@
       </div>
       <!--Experience-->
 
+      <div class="div-experience">
+        <br>
+        <span id="tell-experience" class="text-white display-4">Tell us about your experience</span>
+        <textarea rows="10" id="txt-tell-experience" name="experience"></textarea>
+      </div>
 
-    </form>
+      <button class="next button" id="btn-submit" type="Submit">Submit</button>
+
+      </form>
 
 
   </div>
