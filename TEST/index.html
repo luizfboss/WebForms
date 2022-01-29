@@ -16,10 +16,15 @@
 
 <body>
   <div id="container" class="d-flex container justify-content-center">
-    <class="tecname" form action="#">
-      <h1 id="dev-registration" class="display-1 text-light">Dev Registration</h1>
+    <form class="tecname" action="#">
+      <div id="intro">
+        <h1 id="dev-registration" class="display-1 text-light">Dev Registration</h1>
+        <span class="text-light display-4">Hi, welcome to our Dev Registration form. <br> Are you ready?</span>
+        <button id="button-letsgo" class="next" type="button"><a class="smoothscroll" href="#div-name">Lets Go!</a></button>
+      </div>
+      
 
-      <div>
+      <div id="div-name">
         <div class="row">
           <span class="text-white display-4">Your name: </span>
           <input class="input ml-4 mt-2" placeholder="  Name and Surname" type="text">
@@ -128,7 +133,8 @@
         </div>
 
         <div class="d-flex flex-row-reverse mt-5">
-          <button id="next1" class="next" type="button"><a class="smoothscroll" href="#div-experience">Next</a></button>
+          <button id="next1" class="next" type="button"><a class="smoothscroll"
+              href="#div-experience-level">Next</a></button>
         </div>
 
       </div>
@@ -147,35 +153,23 @@
         </div>
 
         <div class="d-flex flex-row-reverse mt-5">
-          <button id="next1" class="next" type="button"><a class="smoothscroll" href="#div-email">Next</a></button>
+          <button id="next1" class="next" type="button"><a class="smoothscroll" href="#div-experience">Next</a></button>
         </div>
 
       </div>
       <!--Experience-->
 
-      <div class="div-experience">
+      <div id="div-experience">
         <br>
         <span id="tell-experience" class="text-white display-4">Tell us about your experience</span>
         <textarea rows="10" id="txt-tell-experience" name="experience"></textarea>
+
+        <button class="next button" id="btn-submit" type="Submit">Submit</button>
       </div>
-
-      <button class="next button" id="btn-submit" type="Submit">Submit</button>
-
       </form>
 
 
   </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
   <!-- Optional JavaScript -->

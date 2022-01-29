@@ -13,13 +13,21 @@
 
 body{
   background: url('bg.jpg');
-  background-size: 370%;
+  background-size: 3740px;
   background-repeat: no-repeat;
 }
 
 #container{
   transform: translate(0%, 50px);
   text-align: center;
+}
+
+#intro{
+  margin-bottom: 500px;
+}
+#button-letsgo{
+  margin-top: 80px;
+  width: 30%;
 }
 
 #dev-registration{
@@ -115,12 +123,15 @@ input[type=checkbox]{
   color: black;
 }
 
-#div-email, #div-experience-level, #div-dev-field, #div-fields{
+#div-name, #div-email, #div-experience-level, #div-dev-field, #div-fields{
   padding: 100px 0px;
   margin: 500px 0px;
 }
 #div-dev-field{
   border-radius: 40px;
+}
+#div-experience{
+  margin-bottom: 200px;
 }
 
 #experience{
@@ -162,7 +173,6 @@ input[type=checkbox]{
   align-self: flex-end;
   margin-top: 50px;
   color: white;
-
   margin-bottom: 80px;
 
   transition: all 0.5s;
