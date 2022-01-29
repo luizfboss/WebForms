@@ -12,8 +12,8 @@
 
 
 body{
-  background-image: url('bg.jpg');
-  background-size: 150vh 150;
+  background: url('bg.jpg');
+  background-size: 550vh 150;
   background-repeat: no-repeat;
 }
 
@@ -30,11 +30,15 @@ body{
 }
 
 #div-fields{
+  width: 100%;
   color: white;
 }
 #div-fields p{
   font-size: 40px;
 }
+
+
+
 .tecname{
   background-color: rgba(0, 0, 0, 0);
   font-size: 20px;
@@ -46,13 +50,22 @@ body{
   border-radius: 50px;
   border: 2px solid white;
 }
-
-/*
 #languages{
   width: 100%;
 }
-*/
-
+#sub-languages{
+  width: 80%;
+}
+.div-languages{
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+.div-languages label{
+  font-size: 30px;
+}
+input[type=checkbox]{
+  font-size: 50px;
+}
 
 
 .input{
