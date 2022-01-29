@@ -13,7 +13,6 @@
 
 body{
   background: url('bg.jpg');
-  background-size: 550vh 150;
   background-repeat: no-repeat;
 }
 
@@ -119,6 +118,16 @@ input[type=checkbox]{
   color: black;
 }
 
-#div-email{
+#div-email, #div-experience, #div-fields{
+  padding: 100px;
   margin: 500px 0px;
+}
+
+
+#experience{
+  border: 1px solid red;
+  width: 200px;
+}
+#experience option{
+  color: black;
 }

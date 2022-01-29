@@ -38,11 +38,29 @@
         </div>
 
         <div class="d-flex flex-row-reverse mt-5">
-          <button id="next1" class="next" type="button"><a class="smoothscroll" href="#div-email">Next</a></button>
+          <button id="next1" class="next" type="button"><a class="smoothscroll" href="#div-fields">Next</a></button>
         </div>
 
       </div>
       <!--email-->
+
+      <div id="div-dev-field">
+        <div class="row">
+          <span class="text-white display-4">Your Developent Field: </span>
+          <select class="mt-5" name="experience" id="experience">
+            <option class="text-center" value="#">-- Select --</option>
+            <option value="frontend">FrontEnd</option>
+            <option value="backend">Backend</option>
+            <option value="fullstack">Fullstack</option>
+          </select>
+        </div>
+
+        <div class="d-flex flex-row-reverse mt-5">
+          <button id="next1" class="next" type="button"><a class="smoothscroll" href="#div-fields">Next</a></button>
+        </div>
+
+      </div>
+      <!--Developent Field-->
 
 
       <div id="div-fields">
@@ -107,17 +125,22 @@
         </div>
 
         <div class="d-flex flex-row-reverse mt-5">
-          <button id="next1" class="next" type="button"><a class="smoothscroll" href="#div-email">Next</a></button>
+          <button id="next1" class="next" type="button"><a class="smoothscroll" href="#div-experience">Next</a></button>
         </div>
 
       </div>
       <!--Fields-->
 
 
-      <div id="div-email">
+      <div id="div-experience">
         <div class="row">
-          <span class="text-white display-4">Your Email: </span>
-          <input class="input ml-4 mt-2" placeholder="  example@gmail.com" type="text">
+          <span id="experience-level" class="text-white display-4">What is Your Experience Level?</span>
+          <select class="mt-5" name="experience" id="experience">
+            <option class="text-center" value="#">-- Select --</option>
+            <option value="junior">Junior</option>
+            <option value="mid">Mid</option>
+            <option value="senior">Senior</option>
+          </select>
         </div>
 
         <div class="d-flex flex-row-reverse mt-5">
@@ -125,10 +148,10 @@
         </div>
 
       </div>
+      <!--Experience-->
 
 
-
-    </class="tecname" form>
+    </form>
 
 
   </div>
